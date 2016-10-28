@@ -1,0 +1,8 @@
+WANDBOARD BOARD
+M:	Filippo Visocchi <filippo.visocchi@novasis.it>
+S:	Maintained
+F:	board/novasom/
+F:	include/configs/novasom.h
+F:	configs/novasom_dl_defconfig
+F:	configs/novasom_quad_defconfig
+F:	configs/novasom_solo_defconfig

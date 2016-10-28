@@ -1,0 +1,4 @@
+. ../../Utils/SourceMe
+make distclean
+make novasom_quad_config
+make -j32

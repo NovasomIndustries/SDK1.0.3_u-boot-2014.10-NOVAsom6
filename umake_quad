@@ -1,0 +1,9 @@
+. ../../Utils/SourceMe
+make distclean
+make novasom_quad_config
+make -j32
+echo "BOOT_PROCESSOR=QUAD" > processor
+cp NOVAsom6.params8FT  NOVAsom6.params
+sudo cp u-boot.imx /media/sf_Fshared/.
+
+

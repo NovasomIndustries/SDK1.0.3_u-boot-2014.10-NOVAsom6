@@ -1,0 +1,8 @@
+. ../../Utils/SourceMe
+make distclean
+make novasom_dl_config
+make -j32
+echo "BOOT_PROCESSOR=DL" > processor
+cp NOVAsom6.params7B  NOVAsom6.params
+
+
